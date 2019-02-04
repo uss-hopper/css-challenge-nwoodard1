@@ -72,13 +72,29 @@ header {
 	padding-top: 1%;
 	padding-bottom: 1%;
 }
-.container > .instructions-wrapper {
-				display:flex;
-				align-content: space-between;
-				border: thick solid black;
-				padding: 2rem;
+
+img [alt*="welcome to my homepage"] {
+	align-content: center;
 }
 
+
+.container > .instructions-wrapper {
+	display: flex;
+	align-content: space-between;
+	border: thick solid black;
+	padding: 2rem;
+	margin: auto;
+}
+
+
+.form-wrapper {
+	background-color: #286218;
+	color: lime;
+	padding: 1em 2em 1em;
+}
+form > div {
+	display:grid;
+}
 footer {
 	background: black;
 }
