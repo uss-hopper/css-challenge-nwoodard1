@@ -90,9 +90,8 @@ header.container{
 	flex-wrap: nowrap;
 }
 /**Welcome greeting**/
-.instructions-wrapper img {
-	display: flex;
-	margin-left: 17em;
+section:nth-child(2n) .container > img {
+	margin: 7.5% auto 2% 25%;
 }
 
 /**Instructions section**/
@@ -110,14 +109,14 @@ header.container{
 	padding: 2rem 1rem 1rem;
 	margin: auto;
 }
-
+/**About me**/
 .about-me {
 	width: 100%;
 	background-color: blue;
 	display: inline-flex;
 	flex-flow: wrap;
-	align-items: flex-end;
-	justify-content: space-around;
+	align-items: flex-start;
+	justify-content: flex-end;
 	padding: 2em 2em 2em;
 	color: white;
 	margin-top: 4em;
@@ -126,18 +125,23 @@ header.container{
 span {
 	color: yellow;
 }
-	.about-me img {
-		width: 18em;
-		height: 16em;
-		margin: auto;
-		border: 1px solid #ffedff;
-	}
 
+img[alt*="captain picard"] {
+	margin: 0;
+	width: 22em;
+	height: auto;
+	float: left;
+	margin-right: 2em;
+	border: 3px solid white;
+}
 /**Professional skillz**/
 
 	.skillList {
 		width: 78%;
 		margin: 2rem auto;
+		display:flex;
+		justify-content: center;
+		align-content: center;
 	}
 
 	.skillList h2 {
