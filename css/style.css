@@ -72,6 +72,12 @@ header {
 	padding-top: 1%;
 	padding-bottom: 1%;
 }
+.container > .instructions-wrapper {
+				display:flex;
+				align-content: space-between;
+				border: thick solid black;
+				padding: 2rem;
+}
 
 footer {
 	background: black;
