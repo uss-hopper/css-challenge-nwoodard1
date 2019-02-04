@@ -62,6 +62,7 @@ body { width: 100%;
 * * Pseudo Classes
 * * Attribute Selectors
 ******************************************************/
+/**Dylan header**/
 .header {
 	display: flex;
 	font-size: 1rem;
@@ -74,15 +75,27 @@ body { width: 100%;
 	display: flex;
 	flex-flow: wrap;
 	align-items: center;
-	justify-content: space-around;
+	justify-content: center;
 	background-color: #333333;
 	color: lime;
+	padding-right: 10em;
 }
 
+h1{
+	padding-right: 1em;
+	padding-left: 1em;
+}
 header.container{
 	display: flex;
 	flex-wrap: nowrap;
 }
+/**Welcome greeting**/
+.instructions-wrapper img {
+	display: flex;
+	margin-left: 17em;
+}
+
+/**Instructions section**/
 .instructions-wrapper img {
 	width: 14em;
 	height: 12em;
@@ -94,7 +107,7 @@ header.container{
 	display: flex;
 	align-content: space-between;
 	border: thick solid black;
-	padding: 2rem;
+	padding: 2rem 1rem 1rem;
 	margin: auto;
 }
 
@@ -103,11 +116,13 @@ header.container{
 	background-color: blue;
 	display: inline-flex;
 	flex-flow: wrap;
-	align-items: center;
+	align-items: flex-end;
 	justify-content: space-around;
 	padding: 2em 2em 2em;
 	color: white;
+	margin-top: 4em;
 }
+
 span {
 	color: yellow;
 }
@@ -117,6 +132,8 @@ span {
 		margin: auto;
 		border: 1px solid #ffedff;
 	}
+
+/**Professional skillz**/
 
 	.skillList {
 		width: 78%;
@@ -143,6 +160,8 @@ span {
 	th, td {
 		height: 3rem;
 	}
+
+/**Contact form**/
 
 .form-wrapper {
 	background-color: #286218;
