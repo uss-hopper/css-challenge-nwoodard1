@@ -39,7 +39,8 @@ html, body {
 
 /*corrects IE min-height bug*/
 html { display: flex;}
-body { width: 100%;}
+body { width: 100%;
+	font-family: monospace}
 
 .sfooter {
 	display: flex;
@@ -73,10 +74,12 @@ header {
 	padding-bottom: 1%;
 }
 
-img [alt*="welcome to my homepage"] {
-	align-content: center;
+.instructions-wrapper img {
+	width: 14em;
+	height: 12em;
+	margin: auto;
+	padding-left: 25vw;
 }
-
 
 .container > .instructions-wrapper {
 	display: flex;
@@ -86,7 +89,49 @@ img [alt*="welcome to my homepage"] {
 	margin: auto;
 }
 
+.about-me {
+	width: 100%;
+	background-color: blue;
+	display: inline-flex;
+	flex-flow: wrap;
+	align-items: center;
+	justify-content: space-around;
+	padding: 2em 2em 2em;
+	color: white;
+}
 
+	.about-me img {
+		width: 18em;
+		height: 16em;
+		margin: auto;
+		border: 1px solid #ffedff;
+	}
+
+	.skillList {
+		width: 78%;
+		margin: 2rem auto;
+	}
+
+	.skillList h2 {
+		float: right;
+	}
+
+	table {
+		table-layout: fixed;
+		width: 100%;
+		margin-bottom: 3rem;
+	}
+
+	table, td, th {
+		border-collapse: collapse;
+		background-color: #333333;
+		border: 3px solid white;
+		color: lime;
+	}
+
+	th, td {
+		height: 3rem;
+	}
 .form-wrapper {
 	background-color: #286218;
 	color: lime;
