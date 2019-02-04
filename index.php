@@ -14,7 +14,7 @@
 
 			<!-- HEADER -->
 			<header>
-				<div class="container">
+				<div class="dylanHeader">
 					<h1>Dylan McDonald:~$</h1>
 					<em>Computer Scientist. Cat Lover. Picard Fan.</em>
 				</div>

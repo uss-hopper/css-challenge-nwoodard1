@@ -62,18 +62,27 @@ body { width: 100%;
 * * Pseudo Classes
 * * Attribute Selectors
 ******************************************************/
-header {
+.header {
 	display: flex;
-	display: block;
-	color: lime;
-	background-color: #333333;
 	font-size: 1rem;
-	padding-left: 20%;
-	padding-right: 20%;
 	padding-top: 1%;
 	padding-bottom: 1%;
+	justify-content: flex-start;
 }
 
+.dylanHeader {
+	display: flex;
+	flex-flow: wrap;
+	align-items: center;
+	justify-content: space-around;
+	background-color: #333333;
+	color: lime;
+}
+
+header.container{
+	display: flex;
+	flex-wrap: nowrap;
+}
 .instructions-wrapper img {
 	width: 14em;
 	height: 12em;
@@ -99,7 +108,9 @@ header {
 	padding: 2em 2em 2em;
 	color: white;
 }
-
+span {
+	color: yellow;
+}
 	.about-me img {
 		width: 18em;
 		height: 16em;
@@ -132,11 +143,13 @@ header {
 	th, td {
 		height: 3rem;
 	}
+
 .form-wrapper {
 	background-color: #286218;
 	color: lime;
 	padding: 1em 2em 1em;
 }
+
 form > div {
 	display:grid;
 }
