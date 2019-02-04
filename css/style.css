@@ -61,9 +61,11 @@ body { width: 100%;}
 * * Pseudo Classes
 * * Attribute Selectors
 ******************************************************/
-.header-container-wrapper{
-	background-color: darkslategray;
+.header-container-wrapper {
 
+	style: font-family:monos; text-color:Limegreen; font-size: 90px;
+	background-color: darkslategray
+;
 }
 
 
